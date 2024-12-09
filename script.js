@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function daysOfYear(year){
+function daysOfAYear(year){
 	let leapyear=(year%4===0 && year%100!==0) || (year%400===0)
 	return leapyear ? 366 : 365;
 }
